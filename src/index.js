@@ -15,5 +15,5 @@ Vue.component('example-component', require('./js/components/Example.vue').defaul
 
 // Vue init
 const app = new Vue({
-  el: '#app'
+    el: '#app'
 })
