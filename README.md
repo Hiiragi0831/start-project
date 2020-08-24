@@ -1,5 +1,5 @@
-<div align="center">
-  <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
+<div>
+  <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg" alt="logo">
   <h1>Webpack Template</h1>
   <p>
     Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
@@ -20,6 +20,9 @@ cd webpack-template
 # Install dependencies:
 npm install
 
+# OR
+yarn install
+
 # Server with hot reload at http://localhost:8081/
 npm run dev
 
@@ -39,7 +42,7 @@ npm run build
 * `src/store` - app store for vue
 * `static/` - folder with extra static assets that will be copied into output folder
 
-<div align="center">
+<div>
   <h2>Settings:</h2>
 </div>
 
@@ -266,11 +269,11 @@ Add @font-face in `/assets/scss/utils/fonts.scss`:
 // Example with Helvetica
 @font-face {
   font-family: "Helvetica-Base";
-  src: url('/assets/fonts/Helvetica/Base/Helvetica-Base.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/Helvetica/Base/Helvetica-Base.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/Helvetica/Base/Helvetica-Base.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/assets/fonts/Helvetica/Base/Helvetica-Base.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/assets/fonts/Helvetica/Base/Helvetica-Base.svg') format('svg'); /* Legacy iOS */
+  src: url('~/assets/fonts/Helvetica/Base/Helvetica-Base.eot'); /* IE9 Compat Modes */
+  src: url('~/assets/fonts/Helvetica/Base/Helvetica-Base.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('~/assets/fonts/Helvetica/Base/Helvetica-Base.woff') format('woff'), /* Pretty Modern Browsers */
+       url('~/assets/fonts/Helvetica/Base/Helvetica-Base.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('~/assets/fonts/Helvetica/Base/Helvetica-Base.svg') format('svg'); /* Legacy iOS */
 }
 ```
 

@@ -10,3 +10,4 @@
 #doc/**/*.txt
 node_modules/
 dist/
+.idea/
