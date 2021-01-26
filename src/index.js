@@ -1,19 +1,13 @@
 // JS
+import "jquery/dist/jquery"
+import "@popperjs/core/dist/esm/popper"
+import "bootstrap/dist/js/bootstrap.bundle"
 import './js/'
 
 // SCSS
+// import 'bootstrap/scss/bootstrap.scss'
 import './assets/scss/main.scss'
 
 // CSS (example)
 // import './assets/css/main.css'
-
-// Vue.js
-window.Vue = require('vue')
-
-// Vue components (for use in html)
-Vue.component('example-component', require('./js/components/Example.vue').default)
-
-// Vue init
-const app = new Vue({
-    el: '#app'
-})
+import '../node_modules/swiper/swiper-bundle.min.css';
